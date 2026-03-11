@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	s := "racecar"
-	t := "carrace"
+	nums := []int{4, 5, 6}
+	target := 10
 
-	fmt.Printf("is anagram: %v\n", isAnagram(s, t))
+	fmt.Printf("is anagram: %v\n", twoSum(nums, target))
 }
