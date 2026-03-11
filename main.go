@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{4, 5, 6}
-	target := 10
+	strs := []string{""}
 
-	fmt.Printf("is anagram: %v\n", twoSum(nums, target))
+	fmt.Printf("is anagram: %v\n", groupAnagrams(strs))
 }
