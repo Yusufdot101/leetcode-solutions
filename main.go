@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	strs := []string{""}
+	nums := []int{1, 2, 2, 3, 3, 3}
+	k := 2
 
-	fmt.Printf("is anagram: %v\n", groupAnagrams(strs))
+	fmt.Printf("output: %v\n", topKFrequent(nums, k))
 }
