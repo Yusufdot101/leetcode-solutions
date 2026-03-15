@@ -1,10 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	nums := []int{1, 2, 2, 3, 3, 3}
-	k := 2
+	// nums := []int{1, 2, 2, 3, 3, 3}
+	// k := 2
 
-	fmt.Printf("output: %v\n", topKFrequent(nums, k))
+	dummyInput := []string{"hello", "world"}
+	s := Solution{}
+	encoded := s.Encode(dummyInput)
+	decoded := s.Decode(encoded)
+	fmt.Printf("here: %v, %v\n", encoded, decoded)
 }
