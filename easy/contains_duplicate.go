@@ -1,6 +1,6 @@
-package main
+package easy
 
-func hasDuplicate(nums []int) bool {
+func HasDuplicate(nums []int) bool {
 	seen := make(map[int]bool)
 	for _, num := range nums {
 		if _, exists := seen[num]; exists {

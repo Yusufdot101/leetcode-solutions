@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 /**
 Given an integer array nums, return an array output where output[i] is the product of all the elements of nums except nums[i].
@@ -20,7 +20,7 @@ Constraints:
 	-20 <= nums[i] <= 20
 **/
 
-func productExceptSelf(nums []int) []int {
+func ProductExceptSelf(nums []int) []int {
 	prefix := make([]int, len(nums))
 	product := 1
 	for idx, val := range nums {

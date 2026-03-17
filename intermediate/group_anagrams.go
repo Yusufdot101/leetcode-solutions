@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import (
 	"slices"
@@ -28,7 +28,7 @@ import (
 	Input: strs = ["abc", "cab", bac]
 **/
 
-func groupAnagrams(strs []string) [][]string {
+func GroupAnagrams(strs []string) [][]string {
 	ogStrs := make([]string, len(strs))
 	copy(ogStrs, strs)
 	for idx, str := range strs {

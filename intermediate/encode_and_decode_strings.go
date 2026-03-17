@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import (
 	"strconv"
@@ -55,32 +55,6 @@ Constraints:
     0 <= strs[i].length < 200
     strs[i] contains any possible characters out of 256 valid ASCII characters.
 **/
-
-// type Solution struct{}
-//
-// const sep = "#"
-//
-// func (s *Solution) Encode(strs []string) string {
-// 	for idx, str := range strs {
-// 		l := len(str)
-// 		start := strconv.Itoa(l) + sep
-// 		full := start + str
-// 		strs[idx] = full
-// 	}
-// 	return strings.Join(strs, "")
-// }
-//
-// func (s *Solution) Decode(encoded string) []string {
-// 	result := []string{}
-// 	for len(encoded) != 0 {
-// 		parts := strings.SplitN(encoded, "#", 2)
-// 		l, _ := strconv.Atoi(parts[0])
-// 		str := parts[1][:l]
-// 		result = append(result, str)
-// 		encoded = parts[1][l:]
-// 	}
-// 	return result
-// }
 
 type Solution struct{}
 

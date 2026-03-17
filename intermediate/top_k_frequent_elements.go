@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 /**
 Given an integer array nums and an integer k, return the k most frequent elements within the array.
@@ -19,7 +19,7 @@ Constraints:
     1 <= k <= number of distinct elements in nums.
 **/
 
-func topKFrequent(nums []int, k int) []int {
+func TopKFrequent(nums []int, k int) []int {
 	frequencies := make(map[int]int)
 	for _, num := range nums {
 		frequencies[num]++

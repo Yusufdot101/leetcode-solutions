@@ -1,6 +1,6 @@
-package main
+package easy
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	solution := []int{}
 	dict := make(map[int]int)
 	for idx, num := range nums {

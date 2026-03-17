@@ -1,6 +1,6 @@
-package main
+package easy
 
-func isAnagram(s string, t string) bool {
+func IsAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}
